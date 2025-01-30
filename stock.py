@@ -129,5 +129,3 @@ try:
             plt.title("Stock Performance Comparison")
             st.pyplot(plt)
 
-except Exception as e:
-    st.error(f"An error occurred: {e}")
